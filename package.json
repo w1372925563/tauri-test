@@ -6,7 +6,8 @@
     "tauri": "tauri",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pubhome": "tauri build"
   },
   "dependencies": {
     "vue": "^3.3.4"
