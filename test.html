@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        .box {
+            display: flex;
+        }
+        .box div {
+            height: 100px;
+            flex: 1;
+        }
+        .one {
+            width: 20%;
+            background-color: red;
+            margin-right: 5%;
+        }
+        .three {
+            flex: 1;
+            margin-right: 2%;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="three"></div>
+        <div class="three"></div>
+    </div>
+    <input type="checkbox" class="aaa">
+    <input type="checkbox" class="aaa">
+</body>
+</html>
+<script>
+    $('.aaa').eq(0).attr("checked",true)
+</script>

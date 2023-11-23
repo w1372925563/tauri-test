@@ -11,6 +11,8 @@ on:
 # 需要运行的作业组合
 jobs:
   # 任务：创建 release 版本
+  # permissions: write-all 这两句是增加权限
+  # runs-on: ubuntu-latest
   create-release:
     permissions: write-all
     runs-on: ubuntu-latest
