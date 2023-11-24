@@ -47,7 +47,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [ubuntu-13.10, windows-latest]
+        platform: [ubuntu-13.10.1, windows-latest]
  
     runs-on: ${{ matrix.platform }}
     steps:
